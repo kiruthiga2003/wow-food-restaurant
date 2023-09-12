@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>THE CONTINENTAL</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family: century;
+        }
+       
+        
+       
+        header{
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+            height:100vh;
+            background-size: cover;
+            background-position: center;
+            min-height: 100px;
+        }
+        ul{
+            float: right;
+            list-style-type:none;
+            margin-top: 30px;
+            min-height: 60px;
+            font-size: 17px;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+            text-decoration: none;
+            color:#fff;
+            padding:5px 20px;
+            border:1px solid transparent;
+            transition: ease;
+        }
+        ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+        .logo img{
+            float:left;
+            width:150px;
+            height: auto;
+        }
+        .main{
+            max-width: 1200px;
+            margin: auto;
+        }
+        .title{
+            position: absolute;
+            top:47% ;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .title h1{
+            color:#fff;
+            font-size: 70px;
+        }
+        .button{
+            position: absolute;
+            top: 56% ;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .btn{
+            border: 1px solid #fff;
+            padding:5px 20px;
+            color:#fff;
+            transition:0.5 ease;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .btn:hover{
+            background-color: #fff;
+            color: #000;
+        }
+        .sub-menu{
+            display: none;
+            top:6%;
+            position: relative;
+        }
+        .sub-menu ul{
+            position: absolute;
+        }
+        .main ul li:hover .sub-menu{
+            display:block;
+            position:absolute;
+            background-color: rgb(0,45,117);
+            margin-top:12px;
+            margin-left:-8px;
+        }
+        .main ul li:hover .sub-main ul li{
+            width: 75px;
+            padding: 5px;
+            border-bottom:transparent;
+            transition: 0.4 ease;
+            text-align: left;
+            border-end-end-radius: 0px;
+        }
+        @media only screen and (max-width: 768px) {
+            /* Styles for screens with a maximum width of 768px */
+            header {
+                height: auto;
+            }
+            
+            ul {
+                float: none;
+                text-align: center;
+                margin-top: 15px;
+            }
+            
+            ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+            
+            .logo img {
+                float: none;
+                margin: 0 auto;
+            }
+            
+            .title {
+                top: 30%;
+            }
+            
+            .button {
+                top: 40%;
+            }
+        }   
+    </style>
+</head>
+<body>
+    <header>
+       
+             <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="C:\Users\kirut\OneDrive\Desktop\project\fs2 p.html">Appetizer</a></li>
+                <li><a href="C:\Users\kirut\OneDrive\Desktop\demo html\menu.html">Main Course</a></li>
+                <li><a href="#">Dessert</a></li>
+                
+            </ul>
+            
+        </div>
+        <div class="title">
+            <h1>THE CONTINENTAL</h1>
+        </div>
+        <div class="button">
+            <a href="#" class="btn">SOCIAL MEDIA</a>
+            <a href="#" class="btn">LEARN MORE</a>
+        </div>
+
+        <div class="button"><br><br><br><br><br><br><br><br>
+            <a href="payment.html" class="btn">PAYMENT</a>
+        </div>
+        
+    </header>
+</body>
+</html>
